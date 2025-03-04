@@ -1,0 +1,150 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="kuo6tD_nQ_tkFxz9uGc-">
+    <mxGraphModel dx="281" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Eftpw57xhorfW3NbSuMg-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-1" target="Eftpw57xhorfW3NbSuMg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-1" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-2" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1490" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-3" target="Eftpw57xhorfW3NbSuMg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-3" value="MATRIKS =[[5,4,3],[2,6,8]]" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-6" target="Eftpw57xhorfW3NbSuMg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-6" value="nilai_minimum= MATRIKS[0][0]" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-7" target="Eftpw57xhorfW3NbSuMg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-7" value="nilai_maksimum= MATRIKS[0][0]" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="350" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-10" target="Eftpw57xhorfW3NbSuMg-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-10" value="jumlah_elemen = 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="550" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-11" target="Eftpw57xhorfW3NbSuMg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-11" value="total = 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-21" target="Eftpw57xhorfW3NbSuMg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-24" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eftpw57xhorfW3NbSuMg-23">
+          <mxGeometry x="-0.28" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-21" target="Eftpw57xhorfW3NbSuMg-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-27" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eftpw57xhorfW3NbSuMg-26">
+          <mxGeometry x="-0.31" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-21" value="elemen &amp;lt; nilai_minimum" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="650" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-22" value="nilai minimum = elemen" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="790" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-25" value="nilai maksimum = elemen" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-22" target="Eftpw57xhorfW3NbSuMg-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="890" as="sourcePoint" />
+            <mxPoint x="500" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="770" as="sourcePoint" />
+            <mxPoint x="500" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="860" />
+              <mxPoint x="500" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-30" target="Eftpw57xhorfW3NbSuMg-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-30" value="total += elemen&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22nilai%20minimum%20%3D%20elemen%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BabsoluteArcSize%3D1%3BarcSize%3D14%3BstrokeWidth%3D2%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22450%22%20y%3D%22790%22%20width%3D%22100%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="900" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-31" target="Eftpw57xhorfW3NbSuMg-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-31" value="jumlah_elemen += 1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="970" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-33" target="Eftpw57xhorfW3NbSuMg-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-33" value="rata_rata = total/jumlah_elemen" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-35" target="Eftpw57xhorfW3NbSuMg-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-38" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eftpw57xhorfW3NbSuMg-37">
+          <mxGeometry x="-0.344" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-35" value="apakah semua elemen sudah di cek?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1050" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-35" target="Eftpw57xhorfW3NbSuMg-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="800" as="sourcePoint" />
+            <mxPoint x="580" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="1110" />
+              <mxPoint x="300" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-40" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eftpw57xhorfW3NbSuMg-39">
+          <mxGeometry x="-0.9313" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-41" target="Eftpw57xhorfW3NbSuMg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-41" value="nilai maksimum, minimum dan rata-rata" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;spacingLeft=20;spacingRight=20;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="1330" width="185" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Eftpw57xhorfW3NbSuMg-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Eftpw57xhorfW3NbSuMg-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1290" as="sourcePoint" />
+            <mxPoint x="620" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
